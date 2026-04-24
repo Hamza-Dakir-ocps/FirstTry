@@ -23,9 +23,6 @@ def format_time():
     return datetime.now().strftime("%Y-%m-%d")
 
 
-numbers = [1, 2, 2, 3, 3, 3]
-print("Python:", sys.executable)
-
 value = compute(5, 10)
 print("Value:", value)
 
