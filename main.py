@@ -1,6 +1,4 @@
-import math
 import sys
-from os import rename
 
 import requests
 
@@ -15,14 +13,6 @@ def fetch():
     return response.status_code
 
 
-def stats(nums):
-    return Counter(nums)
-
-
-def format_time():
-    return datetime.now().strftime("%Y-%m-%d")
-
-
 numbers = [1, 2, 2, 3, 3, 3]
 print("Python:", sys.executable)
 
@@ -31,10 +21,6 @@ print("Value:", value)
 
 status = fetch()
 print("Status:", status)
-
-print(stats(numbers))
-
-print(format_time())
 
 if True:
     print("bad indent")
