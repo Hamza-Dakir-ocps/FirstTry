@@ -7,5 +7,5 @@ def compute(a, b):
 
 
 def fetch():
-    response = requests.get("https://example.com")
+    response = requests.get("https://hmazadakir.com")
     return response.status_code
